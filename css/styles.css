@@ -15,9 +15,6 @@ li {
     list-style-type: none;
 
 }
-a {
-    text-decoration: none;
-}
 /* Шапка */
 
 .span-logo {
@@ -43,10 +40,9 @@ letter-spacing: 0.02em;
 .items:focus {
     color: var(--main-color);
 }
-.nav-studio:visited {
+.is-active {
     color: var(--main-color);
 }
-
 .adress-items {
     color: var(--description-color);
         font-family: 'Roboto';
@@ -164,9 +160,6 @@ address {
 
 /* Portfolio */
 
-.nav-portfolio:visited {
-    color: var(--main-color);
-}
 .page-menu {
     text-align: center; 
 }
@@ -183,7 +176,7 @@ address {
     width: 128px;
         height: 38px;
 }
-.menu-items:hover
+.menu-items:hover,
 .menu-items:focus {
     color: var(--title-color);
     background: var(--main-color);
