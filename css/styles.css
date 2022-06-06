@@ -160,9 +160,6 @@ address {
 
 /* Portfolio */
 
-.page-menu {
-    text-align: center; 
-}
 .menu-items {
     font-family: 'Roboto';
         font-weight: 500;
@@ -198,4 +195,8 @@ address {
         line-height: 1.8;
         letter-spacing: 0.03em;
         color: var(--description-color);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--main-color);
 }
